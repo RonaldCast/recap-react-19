@@ -1,4 +1,7 @@
-import { ComponentUseActionState } from "./hooks/ComponentUseactionState"
+import { ComponentBasicHooks } from "./hooks/ComponentBasicHooks"
+import { ComponentUseActionState } from "./hooks/ComponentUseActionState";
+import { ComponentUseReducer } from "./hooks/ComponentUseReducer";
+
 
 function App() {
 
@@ -6,6 +9,10 @@ function App() {
   return (
     <>
       <ComponentUseActionState/>
+      <br/>
+      <ComponentBasicHooks/>
+      <br />
+      <ComponentUseReducer/>
     </>
   )
 }
